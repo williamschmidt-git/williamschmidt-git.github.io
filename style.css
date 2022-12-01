@@ -2,7 +2,8 @@
 /* #BEBBBB
 #444054
 #2F243A
-#FAC9B8 */
+#FAC9B8
+#3a3624 */
 * {
   box-sizing: border-box;
 }
@@ -31,7 +32,7 @@ body {
   justify-content: center;
   padding: 30px 10px;
   font-family: "ROBOTO", sans-serif;
-  transition: background 0.4s ease-in;
+  /* transition: background 0.5s ease-in-out; */
   background-color: #2F243A;
 }
 body.blue {
@@ -46,12 +47,22 @@ footer {
   margin: 800px 0 0 0;
 }
 
-.about-me{
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: #c6a307
+}
+
+.about-me {
   text-align: center;
   color: #FAC9B8;
   font-family: 'ROBOTO', sans-serif;
   margin-top: 10rem;
-  font-weight: 300;
+  font-weight: 400;
+  padding: 0 2rem 0 2rem;
 }
 
 .card {
