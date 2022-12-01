@@ -17,11 +17,12 @@ html, body, header {
 
 header {
   text-align: center;
+  font-weight: 800;
   color: #FAC9B8;
   padding: 0.1rem;
   max-width: 25rem;
   margin: auto;
-  font-size: large;
+  font-size: larger;
 }
 
 body {
@@ -42,8 +43,7 @@ input[type=radio] {
 }
 
 footer {
-  padding: 0;
-  margin: 800px 0 0 0;
+  margin: 800px 0 0 100px;
 }
 
 .about-me{
@@ -51,6 +51,7 @@ footer {
   color: #FAC9B8;
   font-family: 'ROBOTO', sans-serif;
   margin-top: 10rem;
+  font-weight: 300;
 }
 
 .card {
