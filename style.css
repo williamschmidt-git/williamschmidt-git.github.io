@@ -14,12 +14,14 @@ html, body, header {
   height: 100%;
 }
 
+
 header {
   text-align: center;
   color: #FAC9B8;
   padding: 0.1rem;
-  max-width: 20rem;
+  max-width: 25rem;
   margin: auto;
+  font-size: large;
 }
 
 body {
@@ -37,6 +39,18 @@ body.blue {
 
 input[type=radio] {
   display: none;
+}
+
+footer {
+  padding: 0;
+  margin: 800px 0 0 0;
+}
+
+.about-me{
+  text-align: center;
+  color: #FAC9B8;
+  font-family: 'ROBOTO', sans-serif;
+  margin-top: 10rem;
 }
 
 .card {
