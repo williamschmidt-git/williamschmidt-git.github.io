@@ -2,7 +2,8 @@
 /* #BEBBBB
 #444054
 #2F243A
-#FAC9B8 */
+#FAC9B8
+#3a3624 */
 * {
   box-sizing: border-box;
 }
@@ -14,12 +15,15 @@ html, body, header {
   height: 100%;
 }
 
+
 header {
   text-align: center;
+  font-weight: 800;
   color: #FAC9B8;
   padding: 0.1rem;
-  max-width: 20rem;
+  max-width: 25rem;
   margin: auto;
+  font-size: larger;
 }
 
 body {
@@ -28,7 +32,7 @@ body {
   justify-content: center;
   padding: 30px 10px;
   font-family: "ROBOTO", sans-serif;
-  transition: background 0.4s ease-in;
+  /* transition: background 0.5s ease-in-out; */
   background-color: #2F243A;
 }
 body.blue {
@@ -37,6 +41,28 @@ body.blue {
 
 input[type=radio] {
   display: none;
+}
+
+footer {
+  margin: 800px 0 0 0;
+}
+
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: #c6a307
+}
+
+.about-me {
+  text-align: center;
+  color: #FAC9B8;
+  font-family: 'ROBOTO', sans-serif;
+  margin-top: 10rem;
+  font-weight: 400;
+  padding: 0 2rem 0 2rem;
 }
 
 .card {

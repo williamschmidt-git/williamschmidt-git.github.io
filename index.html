@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="style.css">
-  <script src="index.js"></script>
+  <script src="https://unpkg.com/phosphor-icons"></script>
 </head>
 <body>
   <header>
@@ -17,53 +17,71 @@
         <p>I'm from Curitiba, Brazil.</p>
         <p>Fullstack Developer.</p>
       </div>
+
+      <div class="about-me">
+        <p>I'm passionate person who likes competitive gaming, doing workouts, art, technology and above all, learning! It's all about the process.</p>
+      </div>
     </div>
   </header>
-  
+
   <div class="container">
     <input type="radio" name="slider" id="item-1" checked>
     <input type="radio" name="slider" id="item-2">
     <input type="radio" name="slider" id="item-3">
-  <div class="cards">
-    <label class="card" for="item-1" id="project-1">
-      <img src="https://images.unsplash.com/photo-1530651788726-1dbf58eeef1f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=882&q=80" alt="project">
-    </label>
-    <label class="card" for="item-2" id="project-2">
-      <img src="https://images.unsplash.com/photo-1559386484-97dfc0e15539?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80" alt="project">
-    </label>
-    <label class="card" for="item-3" id="project-3">
-      <img src="https://images.unsplash.com/photo-1533461502717-83546f485d24?ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60" alt="project">
-    </label>
-  </div>
-
-
-  <div class="player">
-    <div class="upper-part">
-      <div class="info-area" id="test">
-        <label class="project-info" id="project-info-1">
-          <div class="title">LOREM IPSUM 1</div>
-          <div class="sub-line">
-            <!-- <div class="subtitle">Balthazar</div> -->
-          </div>
-        </label>
-        <label class="project-info" id="project-info-2">
-          <div class="title">LOREM IPSUM 2</div>
-          <div class="sub-line">
-            <!-- <div class="subtitle">Moderator</div> -->
-          </div>
-        </label>
-        <label class="project-info" id="project-info-3">
-          <div class="title">LOREM IPSUM 3</div>
-          <div class="sub-line">
-            <!-- <div class="subtitle">Otzeki</div> -->
-          </div>
-        </label>
+    <div class="cards">
+      <label class="card" for="item-1" id="project-1">
+        <img src="img/recipes-app.gif" alt="project">
+      </label>
+      <label class="card" for="item-2" id="project-2">
+        <img src="https://images.unsplash.com/photo-1559386484-97dfc0e15539?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80" alt="project">
+      </label>
+      <label class="card" for="item-3" id="project-3">
+        <img src="https://images.unsplash.com/photo-1533461502717-83546f485d24?ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60" alt="project">
+      </label>
+    </div>
+    <div class="player">
+      <div class="upper-part">
+        <div class="info-area" id="test">
+          <label class="project-info" id="project-info-1">
+            <div class="title">
+              <a href="https://williamschmidt-git.github.io/recipes-app/" target="_blank">Recipes app</a>
+            </div>
+            <div class="sub-line">
+              <!-- <div class="subtitle">Balthazar</div> -->
+            </div>
+          </label>
+          <label class="project-info" id="project-info-2">
+            <div class="title">LOREM IPSUM 2</div>
+            <div class="sub-line">
+              <!-- <div class="subtitle">Moderator</div> -->
+            </div>
+          </label>
+          <label class="project-info" id="project-info-3">
+            <div class="title">LOREM IPSUM 3</div>
+            <div class="sub-line">
+              <!-- <div class="subtitle">Otzeki</div> -->
+            </div>
+          </label>
+        </div>
       </div>
     </div>
   </div>
-    <!-- <div>
-      <p>I'm passionate person who likes competitive gaming, doing workouts, art, technology and above all, learning! It's all about the process.</p>
-    </div> -->
-    
+  <footer>
+    <div class="media-container">
+      <a class="icon-github" href="https://www.linkedin.com/in/williamschmidtsantos/" alt="github">
+        <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#FAC9B8" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><path d="M84,240a23.9,23.9,0,0,0,24-24V168" fill="none" stroke="#FAC9B8" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></path><path d="M172,240a23.9,23.9,0,0,1-24-24V168" fill="none" stroke="#FAC9B8" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></path><path d="M152,168h16a23.9,23.9,0,0,1,24,24v8a23.9,23.9,0,0,0,24,24" fill="none" stroke="#FAC9B8" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></path><path d="M104,168H88a23.9,23.9,0,0,0-24,24v8a23.9,23.9,0,0,1-24,24" fill="none" stroke="#FAC9B8" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></path><path d="M111.8,64A52,52,0,0,0,68,40a52,52,0,0,0-3.5,44.7A49.3,49.3,0,0,0,56,112v8a48,48,0,0,0,48,48h48a48,48,0,0,0,48-48v-8a49.3,49.3,0,0,0-8.5-27.3A52,52,0,0,0,188,40a52,52,0,0,0-43.8,24Z" fill="none" stroke="#FAC9B8" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></path></svg>
+      </a>
+      
+      <a class="icon-linkedin" href="https://github.com/williamschmidt-git">
+        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#FAC9B8" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><rect x="36" y="36" width="184" height="184" rx="8" fill="none" stroke="#FAC9B8" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></rect><line x1="120" y1="112" x2="120" y2="176" fill="none" stroke="#FAC9B8" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line><line x1="88" y1="112" x2="88" y2="176" fill="none" stroke="#FAC9B8" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line><path d="M120,140a28,28,0,0,1,56,0v36" fill="none" stroke="#FAC9B8" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></path><circle cx="88" cy="80" r="12"></circle></svg>
+      </a>
+    </div>
+  </footer>
+
+
+
+  
 </body>
+
+<!-- <script src="index.js"></script> -->
 </html>
