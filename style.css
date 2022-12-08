@@ -16,7 +16,7 @@ header {
   padding: 0.1rem;
   max-width: 19rem;
   margin-left: 13vw;
-  margin-top: 4vh;
+  margin-top: 3vh;
 }
 
 h1 {
@@ -119,6 +119,16 @@ img {
   align-items: center;
   padding: 8px;
   margin: auto;
+  transition: transform 0.1s ease-in;
+}
+
+.project-info .title:hover {
+  transform: scale(1.01);
+}
+
+.project-info .title a {
+  color: #FAC9B8;
+  text-decoration: none;
 }
 
 .info-area {
@@ -142,7 +152,7 @@ img {
 }
 
 footer {
-  margin-top: 13vh;
+  margin-top: 1vh;
   display: flex;
   justify-content: center;
 }/*# sourceMappingURL=style.css.map */
