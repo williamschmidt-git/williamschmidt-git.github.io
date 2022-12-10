@@ -173,8 +173,6 @@ footer {
     flex-direction: column;
   }
   .container {
-    width: 0;
-    height: 0;
     margin-left: auto;
     margin-right: 70px;
     max-width: 50vw;
@@ -210,6 +208,6 @@ footer {
     transition: transform 0.4s ease-in;
   }
   footer {
-    margin-top: 100px;
+    margin-top: 90px;
   }
 }/*# sourceMappingURL=style.css.map */
