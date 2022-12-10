@@ -195,19 +195,21 @@ footer {
   }
 
   .container {
+    width: 0;
+    height: 0;
     margin-left: auto;
+    margin-right: 70px;
     max-width: 50vw;
-    width: 50%;
-    height: 50%;
+    width: 70%;
+    height: 47vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
   }
 
   .card {
     position: absolute;
-    width: 60%;
-    height: 80%;
+    width: 70%;
+    height: 75%;
     left: 0;
     right: 0;
     margin: auto;
@@ -216,9 +218,9 @@ footer {
   }
 
   .player {
-    background-color: #fff;
     border-radius: 8px;
-    padding: 16px 10px;
+    padding: 16px;
+    margin-right: 100px;
   }
 
   // .player {
@@ -230,17 +232,21 @@ footer {
   //   margin-left: 13vw;
   // }
 
-  .upper-part {
-    margin-bottom: 12px;
-    height: 36px;
-    overflow: hidden;
+  .project-info .title {
+    // margin:auto;
+    text-align: center;
   }
 
-  .project-info .title {
-    color: #FAC9B8;
-    font-size: 30px;
-    line-height: 24px;
-    align-items: center;
-    padding: 8px;
+  .info-area {
+    width: 100%;
+    position: absolute;
+    margin: auto;
+    top: 1px;
+    left: 30px;
+    transition: transform .4s ease-in;
+  }
+  
+  footer {
+    margin-top: 100px;
   }
 }
