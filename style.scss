@@ -23,7 +23,7 @@ header {
   padding: 0.1rem;
   max-width: 19rem;
   margin-left: 13vw;
-  margin-top: 3vh;
+  margin-top: 4vh;
 }
 
 h1 {
@@ -80,6 +80,8 @@ img {
   border-radius: 10px;
   object-fit: cover;
 }
+
+
 
 #item-1:checked ~ .cards #project-3, #item-2:checked ~ .cards #project-1, #item-3:checked ~ .cards #project-2 {
   transform: translatex(-40%) scale(.8);
@@ -190,7 +192,10 @@ footer {
     max-width: 20rem;
     // margin-left: 10vw;
     margin-left: 10%;
-    margin-top: 5vh;
+    margin-top: 7vh;
+
+    // border-left: 1px #FAC9B8 solid;
+    // border-radius: 20px;
   }
 
   body {
@@ -209,7 +214,7 @@ footer {
 
   .container {
     position: relative;
-    bottom: 51vh;
+    bottom: 55vh;
     margin-left: auto;
     margin-right: 70px;
     max-width: 50vw;

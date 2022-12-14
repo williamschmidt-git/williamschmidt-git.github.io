@@ -16,7 +16,7 @@ header {
   padding: 0.1rem;
   max-width: 19rem;
   margin-left: 13vw;
-  margin-top: 3vh;
+  margin-top: 4vh;
 }
 
 h1 {
@@ -169,7 +169,7 @@ footer {
     padding: 0.1rem;
     max-width: 20rem;
     margin-left: 10%;
-    margin-top: 5vh;
+    margin-top: 7vh;
   }
   body {
     display: flex;
@@ -184,7 +184,7 @@ footer {
   }
   .container {
     position: relative;
-    bottom: 51vh;
+    bottom: 55vh;
     margin-left: auto;
     margin-right: 70px;
     max-width: 50vw;
