@@ -19,7 +19,8 @@ body, header {
 
 header {
   text-align: left;
-  color: #FAC9B8;
+  // color: #FAC9B8;
+  color: 2F243A;
   padding: 0.1rem;
   max-width: 19rem;
   margin-left: 13vw;
@@ -36,7 +37,8 @@ body {
   // display: flex;
   font-family: 'ROBOTO', sans-serif;
   // transition: background .4s ease-in;
-  background-color: #2F243A;
+  // background-color: #2F243A;
+  background-color: #FAC9B8;
   
   // &.blue {
   //   background-color: #428aa6;
@@ -130,7 +132,7 @@ img {
 
 
 .project-info .title {
-  color: #FAC9B8;
+  color: #2F243A;
   font-size: 30px;
   line-height: 24px;
   align-items: center;
@@ -144,7 +146,7 @@ img {
 }
 
 .project-info .title a {
-  color: #FAC9B8;
+  color: #2F243A;
   text-decoration: none;
 }
 
@@ -182,17 +184,21 @@ footer {
   }
 
   html {
-    height: 100vh;
+    height: 100%;
 }
 
   header {
+    position: relative;
     text-align: center;
-    color: #FAC9B8;
+    color: #2F243A;
     padding: 0.1rem;
     max-width: 20rem;
-    // margin-left: 10vw;
+
     margin-left: 10%;
-    margin-top: 7vh;
+    margin-top: 18vh;
+    font-size: large;
+
+    text-align: start;
 
     // border-left: 1px #FAC9B8 solid;
     // border-radius: 20px;
@@ -201,6 +207,7 @@ footer {
   body {
     display: flex;
     flex-direction: column;
+    background-color: #FAC9B8;
     // flex-wrap: wrap;
     // max-width: 100%;
   }
@@ -216,7 +223,7 @@ footer {
     position: relative;
     bottom: 55vh;
     margin-left: auto;
-    margin-right: 70px;
+    margin-right: 10%;
     max-width: 50vw;
     width: 70%;
     height: 47vh;
@@ -253,6 +260,7 @@ footer {
   .project-info .title {
     // margin:auto;
     text-align: center;
+    font-weight: 500;
   }
 
   .info-area {
