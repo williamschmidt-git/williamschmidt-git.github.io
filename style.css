@@ -12,6 +12,7 @@ body, header {
 
 header {
   text-align: left;
+  color: #2F243A;
   color: 2F243A;
   padding: 0.1rem;
   max-width: 19rem;
@@ -31,6 +32,11 @@ body {
 
 input[type=radio] {
   display: none;
+}
+
+.dark-mode {
+  background-color: #2F243A;
+  color: #FAC9B8;
 }
 
 .card {
@@ -107,6 +113,7 @@ img {
 .project-info {
   width: 100%;
   display: block;
+  font-weight: 500;
 }
 
 .project-info .title {
