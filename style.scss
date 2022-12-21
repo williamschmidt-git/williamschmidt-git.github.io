@@ -175,7 +175,221 @@ footer {
   justify-content: center;
 }
 
-@media (min-width: 720px) {
+@media only screen and (min-width: 768px) {
+  body, header {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  html {
+    height: 100%;
+}
+
+  header {
+    position: relative;
+    text-align: center;
+    color: #2F243A;
+    padding: 0.1rem;
+    max-width: 17rem;
+
+    margin-left: 5%;
+    margin-top: 20vh;
+    font-size: large;
+
+    text-align: start;
+
+    // border-left: 1px #FAC9B8 solid;
+    // border-radius: 20px;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    background-color: #FAC9B8;
+    // flex-wrap: wrap;
+    // max-width: 100%;
+  }
+
+  img {
+    margin-top: 6vh;
+    width: 100%;
+    height: 80%;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+
+  .container {
+    position: relative;
+    bottom: 60vh;
+    margin-left: auto;
+    margin-right: 5%;
+    max-width: 50vw;
+    width: 50%;
+    // height: 47vh;
+    // display: flex;
+    // flex-direction: column;
+  }
+
+  .card {
+    position: absolute;
+    width: 70%;
+    height: 95%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transition: transform .4s ease;
+    cursor: pointer;
+  }
+
+  .player {
+    border-radius: 8px;
+    padding: 16px;
+    margin-right: 100px;
+  }
+
+  .player {
+    position: relative;
+    border-radius: 8px;
+    // min-width: 50vw;
+    padding: 16px 10px;
+    margin-top: 45vh;
+    // margin-left: auto;
+  }
+
+  .project-info .title {
+    // margin:auto;
+    text-align: center;
+    font-weight: 500;
+  }
+
+  .info-area {
+    width: 100%;
+    position: absolute;
+    // margin: auto;
+    text-align: center;
+    top: 1px;
+    left: 11%;
+    transition: transform .4s ease-in;
+  }
+  
+  footer {
+    position: absolute;
+    bottom: 2vh;
+    width: 100%;
+    height: 2.5rem; 
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  body, header {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  html {
+    height: 100%;
+}
+
+  header {
+    position: relative;
+    text-align: center;
+    color: #2F243A;
+    padding: 0.1rem;
+    max-width: 20rem;
+
+    margin-left: 5%;
+    margin-top: 20vh;
+    font-size: large;
+
+    text-align: start;
+
+    // border-left: 1px #FAC9B8 solid;
+    // border-radius: 20px;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    background-color: #FAC9B8;
+    // flex-wrap: wrap;
+    // max-width: 100%;
+  }
+
+  img {
+    margin-top: 6vh;
+    width: 100%;
+    height: 80%;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+
+  .container {
+    position: relative;
+    bottom: 55vh;
+    margin-left: auto;
+    margin-right: 5%;
+    max-width: 50vw;
+    width: 50%;
+    height: 47vh;
+    // display: flex;
+    // flex-direction: column;
+  }
+
+  .card {
+    position: absolute;
+    width: 70%;
+    height: 95%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transition: transform .4s ease;
+    cursor: pointer;
+  }
+
+  .player {
+    border-radius: 8px;
+    padding: 16px;
+    margin-right: 100px;
+  }
+
+  .player {
+    position: relative;
+    border-radius: 8px;
+    // min-width: 50vw;
+    padding: 16px 10px;
+    margin-top: 40vh;
+    // margin-left: auto;
+  }
+
+  .project-info .title {
+    // margin:auto;
+    text-align: center;
+    font-weight: 500;
+  }
+
+  .info-area {
+    width: 100%;
+    position: absolute;
+    // margin: auto;
+    text-align: center;
+    top: 1px;
+    left: 6%;
+    transition: transform .4s ease-in;
+  }
+  
+  footer {
+    position: absolute;
+    bottom: 2vh;
+    width: 100%;
+    height: 2.5rem; 
+  }
+}
+
+@media only screen and (min-width: 1200px) {
   body, header {
     margin: 0;
     padding: 0;
@@ -221,7 +435,7 @@ footer {
 
   .container {
     position: relative;
-    bottom: 55vh;
+    bottom: 60vh;
     margin-left: auto;
     margin-right: 10%;
     max-width: 50vw;
@@ -253,7 +467,7 @@ footer {
     border-radius: 8px;
     // min-width: 50vw;
     padding: 16px 10px;
-    margin-top: 42vh;
+    margin-top: 48vh;
     // margin-left: auto;
   }
 
@@ -269,7 +483,7 @@ footer {
     // margin: auto;
     text-align: center;
     top: 1px;
-    left: 0%;
+    left: -1%;
     transition: transform .4s ease-in;
   }
   
