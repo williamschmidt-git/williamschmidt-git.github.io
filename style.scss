@@ -427,8 +427,8 @@ footer {
 
   img {
     width: 100%; /* or any custom size */
-  // height: 100%; 
-  object-fit: contain;
+    height: 100%; 
+    object-fit: contain;
   }
 
   .container {
@@ -465,7 +465,7 @@ footer {
     border-radius: 8px;
     // min-width: 50vw;
     padding: 16px 10px;
-    margin-top: 48vh;
+    margin-top: 40vh;
     // margin-left: auto;
   }
 

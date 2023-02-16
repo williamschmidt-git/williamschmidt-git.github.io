@@ -342,6 +342,7 @@ footer {
   }
   img {
     width: 100%; /* or any custom size */
+    height: 100%;
     -o-object-fit: contain;
        object-fit: contain;
   }
@@ -373,7 +374,7 @@ footer {
     position: relative;
     border-radius: 8px;
     padding: 16px 10px;
-    margin-top: 48vh;
+    margin-top: 40vh;
   }
   .project-info .title {
     text-align: center;
