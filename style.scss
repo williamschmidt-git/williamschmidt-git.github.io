@@ -19,7 +19,7 @@ body, header {
 
 header {
   text-align: left;
-  color: #2F243A;
+  // color: #2F243A;
   color: 2F243A;
   padding: 0.1rem;
   max-width: 19rem;
@@ -39,6 +39,7 @@ body {
   // transition: background .4s ease-in;
   // background-color: #2F243A;
   background-color: #FAC9B8;
+  color: #2F243A
   
   // &.blue {
   //   background-color: #428aa6;
@@ -47,11 +48,6 @@ body {
 
 input[type=radio] {
   display: none;
-}
-
-.dark-mode {
-  background-color: #2F243A;
-  color: #FAC9B8;
 }
 
 .card {
@@ -135,7 +131,7 @@ img {
 
 
 .project-info .title {
-  color: #2F243A;
+  // color: #2F243A;
   font-size: 30px;
   line-height: 24px;
   align-items: center;
@@ -193,7 +189,7 @@ footer {
   header {
     position: relative;
     text-align: center;
-    color: #2F243A;
+    // color: #2F243A;
     padding: 0.1rem;
     max-width: 17rem;
 
@@ -298,7 +294,7 @@ footer {
   header {
     position: relative;
     text-align: center;
-    color: #2F243A;
+    // color: #2F243A;
     padding: 0.1rem;
     max-width: 20rem;
 
@@ -403,7 +399,7 @@ footer {
   header {
     position: relative;
     text-align: center;
-    color: #2F243A;
+    // color: #2F243A;
     padding: 0.1rem;
     max-width: 20rem;
 
